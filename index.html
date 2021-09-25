@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <title>Surprise Me!</title>
+
+</head>
+<body>
+    <content>
+        <div class="img-container">
+            <img src="images/surprised-person.jpg"/>
+        </div>
+        <div class="input-container">
+            <img src="images/logo.jpg"/>
+            <form action=" class="form" type="GET">
+                <label for="fullname">Full Name</label>
+                <input type="text" name="name" placeholder="Enter name">
+            
+                <label for="birth_year">Birth Year</label>
+                <input type="text" name="birth_year" placeholder="Enter birth year (YYYY)">
+
+                <div class="button-container">
+                    <input formaction="/api/surprise"" type="submit" value="Submit">
+                </div>
+            </form>
+            <form>
+                <input formaction="/api/stats"" type="submit" value="Get stats">
+            </form>
+        </div>
+    </content>
+    
+</body>
+</html>

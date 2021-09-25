@@ -1,0 +1,18 @@
+{
+  "name": "surpriseme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "author": "Natan Z.",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "express": "^4.17.1",
+    "mocha": "^9.0.3"
+  }
+}

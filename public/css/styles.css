@@ -1,0 +1,81 @@
+/* Global settings for html and body*/
+html,body{
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Makes the form centered inside the content element by using flexbox */
+content{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container{
+    flex: 1; /* The image should take less space relative to the form */
+    height: 100vh; 
+    width: 30%;
+}
+
+
+.img-container img{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover; /* Adjusts the image aspect & crops it inside the parent div */
+}
+
+.input-container{
+    display: flex; /* Flex gives the form elements their positioning as centered*/
+    flex:2; /* Relative space taken to image sibling */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text] {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D; /* Submit button color */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 6px;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049; /* Submit button color on hover */
+  }
+  
+  /* Container for submit button centering purposes*/
+  .button-container{
+    text-align: center; 
+    display: block;
+  }
+
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  
